@@ -153,9 +153,18 @@ a
 {
     width: 30%;
     height: 400px;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(255, 239, 239);
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 5px 5px 15px rgba(121, 121, 121, 0.336);
+}
+#donate-plan .plan-box .box:nth-child(2)
+{
+    background-color: rgb(255, 199, 245);
+}
+#donate-plan .plan-box .box:nth-child(3)
+{
+    background-color: rgb(255, 218, 212);
 }
 #donate-plan .plan-box .box img
 {
@@ -166,4 +175,78 @@ a
 #donate-plan .plan-box .box .box-header
 {
     margin: 20px 0;
+    font-size: 1.5em;
+}
+/**volunteer section**/
+#volunteer-section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+#volunteer-section .volunteer-div
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#volunteer-section .volunteer-div img
+{
+    width: 650px;
+    height: auto;
+}
+#volunteer-section .volunteer-div .volunteer-header
+{
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 20px;
+}
+#volunteer-section .volunteer-div .volunteer-header span
+{
+    color: crimson;
+}
+#volunteer-section .volunteer-div .volunteer-sub-header
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#volunteer-section .volunteer-div .contact-us
+{
+    margin-top: 20px;
+}
+#volunteer-section .volunteer-div p
+{
+    margin-top: 10px;
+}
+#volunteer-section .volunteer-div p span
+{
+    color: crimson;
+}
+#volunteer-section .volunteer-div form
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.438);
+}
+#volunteer-section .volunteer-div form label
+{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #525252;
+}
+#volunteer-section .volunteer-div form input
+{
+    width: 300px;
+    line-height: 30px;
+}
+#volunteer-section .volunteer-div .contact-btn
+{
+    text-transform: uppercase;
 }
