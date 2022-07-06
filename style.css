@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    min-height: 100vh;
+}
+h1
+{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+p
+{
+    font-size: 18px;
+}
+.header-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+.header-section .header-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ;
+}
