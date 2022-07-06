@@ -8,6 +8,7 @@ body
 {
     font-family: 'Poppins', sans-serif;
 }
+/*element for all section*/
 section
 {
     min-height: 100vh;
@@ -21,22 +22,148 @@ p
 {
     font-size: 18px;
 }
-.header-section
+a
+{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right bottom, rgb(214, 26, 73), rgba(228, 105, 111, 0.849));
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/*section start*/
+
+#header-section
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(images/donation6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.856)), url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 
 }
-.header-section .header-text
+.header-text
+{
+    color: #fff;
+    font-weight: 900;
+    text-align: center  ;
+    margin-bottom: 25px;
+}
+.header-para
+{
+    color: #fff;
+    width: 1000px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/** donate section**/
+#donate-section
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: ;
+    flex-direction: column;
+    background-color: #fdfbfb;
+}
+.donate-section .donate-heading
+{
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#donate-section .donate-para
+{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(87, 87, 87);
+}
+#donate-section .money-amount-box
+{
+    width: 840px;
+    margin: 50px 0 100px 0;
+}
+#donate-section .money-amount-box span
+{
+    padding: 45px 30px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(141, 141, 141);
+    border-radius: 10px;
+}
+#donate-section .money-amount-box span:nth-child(2)
+{
+    border: 3px solid rgb(255, 0, 51);
+    background-color: rgba(255, 0, 51, 0.048);
+    color: rgb(255, 0, 51);
+}
+#donate-section form
+{
+    width: 800px;
+    height: 50px;
+    border-bottom: 2px solid gray;
+}
+#donate-section form input
+{
+    width: 100%;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(121, 121, 121);
+    outline: none;
+    height: 100%;
+}
+/*plan section*/
+#donate-plan
+{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#donate-plan .plan-header
+{
+    font-size: 50px;
+    font-weight: 900;
+}
+#donate-plan .plan-para
+{
+    width: 800px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#donate-plan .plan-box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+}
+#donate-plan .plan-box .box
+{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+    padding: 20px;
+}
+#donate-plan .plan-box .box img
+{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+}
+#donate-plan .plan-box .box .box-header
+{
+    margin: 20px 0;
 }
